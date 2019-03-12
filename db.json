@@ -1,5 +1,85 @@
 {
   "campaigns": [
-    { "id": 1, "title": "sorry-vouchers" }
+    {
+      "id": 1,
+      "name": "Sorry vouchers"
+    },
+    {
+      "id": 2,
+      "name": "Shop credit"
+    },
+    {
+      "id": 3,
+      "name": "Something else"
+    }
+  ],
+  "pre-sets": [
+    {
+      "id": 1,
+      "name": "1 day late",
+      "campaign_id": 1
+    },
+    {
+      "id": 2,
+      "name": "2 day late",
+      "campaign_id": 1
+    },
+    {
+      "id": 3,
+      "name": "3 day late",
+      "campaign_id": 1
+    }
+  ],
+  "vouchers": [
+    {
+      "preset": {
+        "id": 1,
+        "name": "1 day late",
+        "campaign_id": 1
+      },
+      "value": "1234",
+      "customer": 1,
+      "id": 1
+    },
+    {
+      "preset": {
+        "id": 2,
+        "name": "2 day late",
+        "campaign_id": 1
+      },
+      "value": "9876",
+      "customer": 1,
+      "id": 2
+    },
+    {
+      "preset": {
+        "id": 2,
+        "name": "2 day late",
+        "campaign_id": 1
+      },
+      "value": "4564",
+      "customer": 1,
+      "id": 3
+    },
+    {
+      "preset": {
+        "id": 1,
+        "name": "1 day late",
+        "campaign_id": 1
+      },
+      "value": "100",
+      "customer": 1,
+      "id": 4
+    },
+    {
+      "preset": {
+        "id": 1,
+        "name": "1 day late",
+        "campaign_id": 1
+      },
+      "value": "200",
+      "customer": 1,
+      "id": 5
+    }
   ]
 }
